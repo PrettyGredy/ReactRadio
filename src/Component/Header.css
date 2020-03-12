@@ -1,0 +1,19 @@
+.Header {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 500px 1fr 470px;
+    height: 80px;
+}
+.Header > div {
+    padding: 1em;
+}
+.nav-brand{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.classy-menu {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
