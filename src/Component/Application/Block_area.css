@@ -2,12 +2,17 @@
     background-color: darkolivegreen;
     height: 750px;
     width: 1050px;
-    display: grid;
     grid-template-columns: repeat(2, 400px);
 }
 
 .area_info_block {
     background-color: white;
     height: 500px;
+}
+
+.pre_area_info_block {
+    grid-column: 1/3;
+    color: white;
+    text-align: center;
 }
 

@@ -2,12 +2,16 @@
     background-color: darkviolet;
     height: 600px;
     width: 1050px;
-    display: grid;
     grid-template-columns: repeat(2, 400px);
 }
 
 .com_con_info {
     background-color: white;
-    height: 200px;
     margin: 20px;
+}
+
+.pre_com_con_info {
+    grid-column: 1/3;
+    color: white;
+    text-align: center;
 }

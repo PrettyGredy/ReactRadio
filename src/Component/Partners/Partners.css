@@ -2,23 +2,12 @@
     background-color: aquamarine;
     height: 977px;
     width: 1140px;
-    display: grid;
     grid-template-columns: repeat(3, 350px);
-    margin: 90px auto;
     grid-gap: 1em;
-    grid-template-rows: 100px auto;
-    justify-content: center;
 }
 
 .Partners_info_block {
     background-color: white;
-    align-self: start;
-    visibility: visible;
-    position: relative;
-    z-index: 1;
-    animation-delay: 250ms;
-    border-radius: 6px;
-    border: 1px solid #ebebeb;
 }
 .Partners_info_block p {
     font-family: "Raleway", sans-serif;
@@ -29,7 +18,7 @@
 }
 
 .pre_partners_info_block {
-    grid-column: 1/5;
+    grid-column: 1/4;
     color: white;
     text-align: center;
 }

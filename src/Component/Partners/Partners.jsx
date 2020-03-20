@@ -1,4 +1,5 @@
 import React from "react";
+import "/React/ProgektRadio/my-app/src/App.css"
 import "./Partners.css"
 import rusu from "./alya_rusu.jpg"
 import carman from "./carman.jpg"
@@ -6,11 +7,11 @@ import saranchuk from "./saranchuk.jpg"
 
 const Partners = () => {
     return (
-        <div className="Partners">
+        <div className="common_block Partners">
             <div className="pre_partners_info_block">
                 <h3>Наши партнеры</h3>
             </div>
-            <div className="Partners_info_block">
+            <div className="indoor_block Partners_info_block">
                 <img src={saranchuk} height={287} width={350}/>
                 <div className="under_the_image">
                     <h4>Иван Саранчук</h4>
@@ -18,7 +19,7 @@ const Partners = () => {
                         Орегоне. </p>
                 </div>
             </div>
-            <div className="Partners_info_block">
+            <div className="indoor_block Partners_info_block">
                 <img src={rusu} height={400} width={350}/>
                 <div className="under_the_image">
                     <h4>Аля Русу</h4>
@@ -29,7 +30,7 @@ const Partners = () => {
                         и корректировку состояния дела клиента, направляет к ведущим специалистам: юристам и врачам.</p>
                 </div>
             </div>
-            <div className="Partners_info_block">
+            <div className="indoor_block Partners_info_block">
                 <img src={carman} height={350} width={350}/>
                 <div className="under_the_image">
                     <h4>Сергей Карман</h4>
