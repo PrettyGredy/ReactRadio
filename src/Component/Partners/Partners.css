@@ -1,0 +1,49 @@
+.Partners {
+    background-color: aquamarine;
+    height: 977px;
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    margin: 90px auto;
+    grid-gap: 1em;
+    grid-template-rows: 100px auto;
+    justify-content: center;
+}
+
+.Partners_info_block {
+    background-color: white;
+    align-self: start;
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+    animation-delay: 250ms;
+    border-radius: 6px;
+    border: 1px solid #ebebeb;
+}
+.Partners_info_block p {
+    font-family: "Raleway", sans-serif;
+    color: #5a5a5a;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.pre_partners_info_block {
+    grid-column: 1/5;
+    color: white;
+    text-align: center;
+}
+
+.pre_partners_info_block h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.Partners_info_block img {
+    margin: 0;
+    padding: 0;
+}
+
+.under_the_image {
+    padding: 25px;
+}

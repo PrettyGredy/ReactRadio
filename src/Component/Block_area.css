@@ -1,0 +1,13 @@
+.block_area {
+    background-color: darkolivegreen;
+    height: 750px;
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+}
+
+.area_info_block {
+    background-color: white;
+    height: 500px;
+}
+

@@ -1,0 +1,28 @@
+.down_header {
+    background-image: url("./bgnew1.jpg");
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+
+}
+
+.down_header > div h2 {
+    display: block;
+    color: white;
+    height: 186px;
+    width: 960px;
+    align-items: center;
+    margin-right: auto;
+    padding-right: 15px;
+    margin-left: auto;
+    padding-left: 15px;
+    position: 0;
+}
+
+
+

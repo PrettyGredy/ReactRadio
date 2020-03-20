@@ -1,8 +1,9 @@
 .Header {
     display: grid;
     background-color: white;
-    grid-template-columns: 500px 1fr 470px;
+    grid-template-columns: 500px auto 470px;
     height: 80px;
+    grid-column: 3/4;
 }
 .Header > div {
     padding: 1em;
@@ -13,6 +14,7 @@
     grid-template-columns: repeat(4,1fr);
 }
 .classy-menu {
+    grid-column: 3/4;
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }

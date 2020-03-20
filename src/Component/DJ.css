@@ -1,0 +1,14 @@
+.DJ {
+    background-color: coral;
+    height: 430px;
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+
+.DJ_info_block {
+    background-color: white;
+    height: 200px;
+}
+
+

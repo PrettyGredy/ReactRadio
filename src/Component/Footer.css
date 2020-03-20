@@ -1,0 +1,19 @@
+.footer{
+    background-color: #252525;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #4c4c4c;
+    height: 180px;
+}
+
+.footer h3 {
+display: block;
+    color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+    font-size: 1.17em;
+}
+
