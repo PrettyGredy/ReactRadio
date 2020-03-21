@@ -12,7 +12,6 @@ const Com_con = () => {
             <div className="indoor_block com_con_info"> 1 </div>
             <div className="indoor_block com_con_info"> 2 </div>
         </div>
-
     )
 };
 export default Com_con;

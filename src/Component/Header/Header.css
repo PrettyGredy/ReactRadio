@@ -4,6 +4,8 @@
     grid-template-columns: 500px auto 470px;
     height: 80px;
     grid-column: 3/4;
+    position: fixed;
+    z-index: 1000;
 }
 .Header > div {
     padding: 1em;

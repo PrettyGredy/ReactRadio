@@ -1,18 +1,46 @@
 .block_area {
     background-color: darkolivegreen;
     height: 750px;
-    width: 1050px;
-    grid-template-columns: repeat(2, 400px);
+    width: 1140px;
+    grid-template-columns: repeat(2, 540px);
 }
 
 .area_info_block {
     background-color: white;
-    height: 500px;
+    padding: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.area_info_block h5{
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.area_info_block p{
+    font-family: "Raleway", sans-serif;
+    color: #5a5a5a;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin: 0;
+}
+
+.area_info_block img {
+    border-radius: 6px;
+}
+
+.area_info_block b{
+    font-weight: bolder;
+}
+
+.area_inf img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 
 .pre_area_info_block {
     grid-column: 1/3;
-    color: white;
-    text-align: center;
 }
 

@@ -2,11 +2,16 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.Main h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
 .common_block {
     margin: 90px auto;
     display: grid;
     justify-content: center;
     grid-template-rows: 100px auto;
+    grid-column-gap: 30px;
 }
 
 .indoor_block {
@@ -19,3 +24,13 @@
     border: 1px solid #ebebeb;
 }
 
+.pre_indoor_block {
+    text-align: center;
+}
+
+.pre_indoor_block h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+}

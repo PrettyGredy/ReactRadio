@@ -8,20 +8,25 @@
     background-position: center;
     background-size: cover;
     z-index: 2;
-
 }
 
-.down_header > div h2 {
+.down_header_text {
+    width: 1140px;
+    height: 183px;
+    margin: 0 auto;
+}
+
+.down_header_text h2 {
     display: block;
-    color: white;
-    height: 186px;
-    width: 960px;
-    align-items: center;
-    margin-right: auto;
+    height: 153px;
+    width: 1010px;
+    color: #ffffff;
+    text-align: center;
     padding-right: 15px;
-    margin-left: auto;
     padding-left: 15px;
-    position: 0;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
 }
 
 

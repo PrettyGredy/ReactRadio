@@ -8,7 +8,7 @@ import saranchuk from "./saranchuk.jpg"
 const Partners = () => {
     return (
         <div className="common_block Partners">
-            <div className="pre_partners_info_block">
+            <div className="pre_indoor_block pre_partners_info_block">
                 <h3>Наши партнеры</h3>
             </div>
             <div className="indoor_block Partners_info_block">

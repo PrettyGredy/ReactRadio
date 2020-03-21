@@ -10,7 +10,7 @@ import earth from "./earth.png"
 const Facts = () => {
     return (
         <div className="common_block facts">
-            <div className="pre_facts_block">
+            <div className="pre_indoor_block pre_facts_block">
                 <h3> Наша статистика </h3>
             </div>
             <div className="indoor_block facts_block">
