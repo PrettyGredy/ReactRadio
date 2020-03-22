@@ -1,9 +1,9 @@
 import React from "react";
 import "/React/ProgektRadio/my-app/src/App.css"
 import "./Partners.css"
-import rusu from "./alya_rusu.jpg"
-import carman from "./carman.jpg"
-import saranchuk from "./saranchuk.jpg"
+import rusu from "./image/alya_rusu.jpg"
+import carman from "./image/carman.jpg"
+import saranchuk from "./image/saranchuk.jpg"
 
 const Partners = () => {
     return (

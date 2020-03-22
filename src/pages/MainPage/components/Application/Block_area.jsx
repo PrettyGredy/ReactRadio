@@ -1,9 +1,9 @@
 import React from "react";
-import "/React/ProgektRadio/my-app/src/App.css"
+import "/React/ProgektRadio/my-app/src/pages/MainPage/MainPageStyles.css"
 import "./Block_area.css"
-import mobprezent from "./mobprezent.jpg"
-import appstore from "./appstore.png"
-import googleplay from "./googleplay.png"
+import mobprezent from "./image/mobprezent.jpg"
+import appstore from "./image/appstore.png"
+import googleplay from "./image/googleplay.png"
 
 const Block_area = () => {
     return (

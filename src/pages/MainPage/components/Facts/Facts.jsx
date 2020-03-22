@@ -1,11 +1,11 @@
 /*Наша статистика*/
 import React from "react";
-import "/React/ProgektRadio/my-app/src/App.css"
+import "/React/ProgektRadio/my-app/src/pages/MainPage/MainPageStyles.css"
 import "./Facts.css";
-import docs from "./docs.png";
-import events from "./events.png"
-import star from "./star.png"
-import earth from "./earth.png"
+import docs from "./image/docs.png";
+import events from "./image/events.png"
+import star from "./image/star.png"
+import earth from "./image/earth.png"
 
 const Facts = () => {
     return (

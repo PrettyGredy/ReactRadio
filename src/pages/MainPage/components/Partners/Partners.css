@@ -1,12 +1,12 @@
 .Partners {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     height: 977px;
     width: 1140px;
     grid-template-columns: repeat(3, 350px);
 }
 
 .Partners_info_block {
-    background-color: white;
+    background-color: #ffffff;
 }
 .Partners_info_block p {
     font-family: "Raleway", sans-serif;
@@ -16,6 +16,11 @@
     font-weight: 400;
 }
 
+.Partners_info_block h4{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
 .pre_partners_info_block {
     grid-column: 1/4;
 }
@@ -23,6 +28,8 @@
 .Partners_info_block img {
     margin: 0;
     padding: 0;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 
 .under_the_image {

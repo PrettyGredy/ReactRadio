@@ -1,0 +1,14 @@
+.com_con {
+    background-color: darkviolet;
+    height: 608px;
+    width: 1140px;
+    grid-template-columns: repeat(2, 565px);
+}
+
+.com_con_info {
+    background-color: white;
+}
+
+.pre_com_con_info {
+    grid-column: 1/3;
+}

@@ -1,8 +1,8 @@
 .facts {
-    background-color: maroon;
+    /*background-color: maroon;*/
     height: 450px;
     width: 1140px;
-    grid-template-columns: repeat(4, 230px);
+    grid-template-columns: repeat(4, 240px);
 }
 
 .facts_block {

@@ -1,6 +1,6 @@
 /* Новости */
 import React from "react";
-import "/React/ProgektRadio/my-app/src/App.css"
+import "/React/ProgektRadio/my-app/src/pages/MainPage/MainPageStyles.css"
 import "./News.css"
 
 const News = () => {
