@@ -1,4 +1,4 @@
-.footer{
+.footer {
     background-color: #252525;
     position: relative;
     z-index: 1;
@@ -9,11 +9,12 @@
 }
 
 .footer h3 {
-display: block;
+    display: block;
     color: white;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    font-weight: bold;
-    font-size: 1.17em;
+    font-size: 1.75em;
+    line-height: 1.3;
+    font-weight: 700;
 }
 

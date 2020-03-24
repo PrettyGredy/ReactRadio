@@ -8,8 +8,9 @@ const Com_con = () => {
         <div className="common_block com_con">
             <div className="pre_indoor_block pre_com_con_info">
                 <h3>Контакты</h3>
+                <a name="Contact"></a>
             </div>
-            <div className="indoor_block com_con_info">
+            <div className="indoor_block">
                 <iframe width="565" height="400" id="gmap_canvas"
                         src="https://maps.google.com/maps?q=16022%20se%20stark%20st%20portland%20oregon&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
                         frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>

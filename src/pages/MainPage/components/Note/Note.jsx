@@ -12,7 +12,12 @@ const Note = () => {
                 <h3>На заметку</h3>
             </div>
             <div className="indoor_block note_block">
-                <div className="down_note_block"> </div>
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frusskoeradioamerica%2F&amp;tabs=timeline&amp;width=350&amp;height=550&amp;small_header=true&amp;adapt_container_width=false&amp;hide_cover=true&amp;show_facepile=true&amp;appId"
+                    width="350" height="550" scrolling="no" frameBorder="0"
+                    allowTransparency="true">
+                </iframe>
+                <div className="down_note_block"></div>
             </div>
             <div className="indoor_block note_block">
                 <img src={casting} height={196} width={350}/>
@@ -44,7 +49,7 @@ const Note = () => {
                     <br/>
                     Имена победителей будут объявлены 20 декабря!
                 </p>
-                <div className="down_note_block"> </div>
+                <div className="down_note_block"></div>
             </div>
             <div className="indoor_block note_block">
                 <img src={logo} width={350} height={76}/>
@@ -69,7 +74,7 @@ const Note = () => {
                     09:00 - 13:00 Андрей Титов <br/>
                     13:00 - 17:00 Дарья Мельникова <br/>
                 </p>
-                <div className="down_note_block"> </div>
+                <div className="down_note_block"></div>
             </div>
         </div>
     )

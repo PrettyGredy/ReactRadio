@@ -12,25 +12,26 @@ const Facts = () => {
         <div className="common_block facts">
             <div className="pre_indoor_block pre_facts_block">
                 <h3> Наша статистика </h3>
+                <a name="statistic"></a>
             </div>
             <div className="indoor_block facts_block">
                 <img src={star} height={127} width={127} />
-                <h2>1000000</h2>
+                <h2><span className="counter">1000000</span></h2>
                 <h5>Более 1 000 000 человек составляют нашу потенциальную аудиторию</h5>
             </div>
             <div className="indoor_block facts_block">
                 <img src={events} height={127} width={127} />
-                <h2>365</h2>
+                <h2><span className="counter">365</span></h2>
                 <h5>Мы вещаем 24 часа в сутки 365 дней в году</h5>
             </div>
             <div className="indoor_block facts_block">
                 <img src={docs} width={127} height={127}/>
-                <h2>10000</h2>
+                <h2><span className="counter">10000</span></h2>
                 <h5>Более 10 000 песен на русском языке</h5>
             </div>
             <div className="indoor_block facts_block">
                 <img src={earth} width={127} height={127} />
-                <h2>35000</h2>
+                <h2><span className="counter">35000</span></h2>
                 <h5>Более 35000 часов онлайн радио прослушиваний каждый месяц.</h5>
             </div>
         </div>

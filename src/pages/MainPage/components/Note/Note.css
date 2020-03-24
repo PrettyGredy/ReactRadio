@@ -19,6 +19,24 @@
     margin: 7px;
 }
 
+.note_block a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.note_block_tar{
+    color: #365899;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.358;
+    margin-bottom: -5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .note_block b {
     font-weight: bolder;
 }

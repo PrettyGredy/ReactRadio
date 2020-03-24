@@ -10,6 +10,7 @@ const Partners = () => {
         <div className="common_block Partners">
             <div className="pre_indoor_block pre_partners_info_block">
                 <h3>Наши партнеры</h3>
+                <a name="partners"></a>
             </div>
             <div className="indoor_block Partners_info_block">
                 <img src={saranchuk} height={287} width={350}/>

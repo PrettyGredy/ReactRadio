@@ -1,5 +1,5 @@
 .com_con {
-    background-color: darkviolet;
+  /*  background-color: darkviolet;*/
     height: 608px;
     width: 1140px;
     grid-template-columns: repeat(2, 565px);
@@ -7,6 +7,39 @@
 
 .com_con_info {
     background-color: white;
+    padding: 25px;
+}
+
+.com_con_info h5 {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0;
+}
+
+.com_con_info h6 {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0;
+    padding: 25px;
+}
+
+.com_con_info a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.com_con_info p {
+    font-family: "Raleway", sans-serif;
+    color: #5a5a5a;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin: 0;
 }
 
 .pre_com_con_info {
