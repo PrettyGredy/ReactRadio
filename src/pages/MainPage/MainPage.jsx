@@ -2,7 +2,7 @@ import React from "react";
 import Down_header from "./components/Header/Down_header";
 import Facts from "./components/Facts/Facts";
 import Partners from "./components/Partners/Partners";
-import DJ from "./components/DJ";
+import SimpleSlider from "./components/DJ";
 import Block_area from "./components/Application/Block_area";
 import Note from "./components/Note/Note";
 import News from "./components/News/News";
@@ -15,7 +15,7 @@ const MainPage = () => {
             <section><Down_header/></section>
             <section><Facts/></section>
             <section><Partners/></section>
-            <section><DJ/></section>
+            <section><SimpleSlider/></section>
             <section><Block_area/></section>
             <section><Note/></section>
             <section><News/></section>
