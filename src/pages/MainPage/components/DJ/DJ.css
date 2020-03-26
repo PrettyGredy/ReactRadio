@@ -4,7 +4,9 @@
     width: 1050px;
     margin: 90px auto;
 }
-
+.DJ h3{
+    margin-bottom: 80px;
+}
 .DJ_info {
     position: relative;
     z-index: 1;

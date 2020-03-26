@@ -12,8 +12,8 @@ const News = () => {
     return (
         <div className="common_block news">
             <div className="pre_indoor_block pre_news_info">
-                <h3>Новости</h3>
                 <a name="news"></a>
+                <h3>Новости</h3>
             </div>
             <div className="indoor_block news_info">
                 <img src={Rinok} height={265} width={490}/>
