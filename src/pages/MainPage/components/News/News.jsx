@@ -2,11 +2,7 @@
 import React from "react";
 import "/React/ProgektRadio/my-app/src/pages/MainPage/MainPageStyles.css"
 import "./News.css"
-import Rinok from "./image/Rinok.png"
-import Pliag from "./image/Pliag.png"
-import Aktor from "./image/0df35926338091342210bfd800cdfbf1.png"
-import Truba from "./image/88aceb65c3af29e10d20d63257c1b0de.jpg"
-
+import images from "./image"
 
 const News = () => {
     return (
@@ -16,7 +12,7 @@ const News = () => {
                 <h3>Новости</h3>
             </div>
             <div className="indoor_block news_info">
-                <img src={Rinok} height={265} width={490}/>
+                <img src={images.Rinok} height={265} width={490}/>
                 <h4>Фермерский рынок Бивертона </h4>
                 <p> успешно адаптируется к новым условиям социального дистанцирования.
                     В субботу торговцы работали как обычно: палатки стояли в ряд через дорогу от городской библиотеки на
@@ -30,7 +26,7 @@ const News = () => {
                 </p>
             </div>
             <div className="indoor_block news_info">
-                <img src={Pliag} height={306} width={490}/>
+                <img src={images.Pliag} height={306} width={490}/>
                 <h4>Минувшие выходные порадовали орегонцев хорошей погодой,</h4>
                 <p> поэтому многие не удержались и поехали к океану.
                     Из-за этого почти все шоссе и дороги вдоль побережья были забиты людьми и машинами, да так, что это
@@ -42,7 +38,7 @@ const News = () => {
                 </p>
             </div>
             <div className="indoor_block news_info">
-                <img src={Aktor} height={310} width={490}/>
+                <img src={images.Aktor} height={310} width={490}/>
                 <h4>Перешёл на самоизоляцию</h4>
                 <p>32-летний российский актер, певец и музыкант Алексей Воробьев сообщил в Инстаграме своим поклонникам,
                     что серьезно заболел, уточнив, что сейчас находится в США и не может сделать тест на коронавирус,
@@ -55,7 +51,7 @@ const News = () => {
                 </p>
             </div>
             <div className="indoor_block news_info">
-                <img src={Truba} height={275} width={490}/>
+                <img src={images.Truba} height={275} width={490}/>
                 <h4>Операторы городских сточных вод </h4>
                 <p> сообщают о значительном увеличении в канализации предметов, не подлежащих смыву, таких как: детские
                     салфетки, бумажные полотенца, футболки и т.п..

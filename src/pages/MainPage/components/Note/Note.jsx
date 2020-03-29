@@ -2,8 +2,7 @@
 import React from "react";
 import "/React/ProgektRadio/my-app/src/pages/MainPage/MainPageStyles.css"
 import "./Note.css"
-import casting from "./image/casting.jpg"
-import logo from "./image/logo.png"
+import image from "./image"
 
 const Note = () => {
     return (
@@ -20,7 +19,7 @@ const Note = () => {
                 <div className="down_note_block"></div>
             </div>
             <div className="indoor_block note_block">
-                <img src={casting} height={196} width={350}/>
+                <img src={image.casting} height={196} width={350}/>
                 <p>
                     Русское радио Америка приглашает талантливых авторов и исполнителей принять участие в проекте
                     "Музыкальная гонка"!
@@ -52,7 +51,7 @@ const Note = () => {
                 <div className="down_note_block"></div>
             </div>
             <div className="indoor_block note_block">
-                <img src={logo} width={350} height={76}/>
+                <img src={image.logo} width={350} height={76}/>
                 <p>
                     <b>РАСПИСАНИЕ</b><br/>
                     <b>Понедельник - Четверг</b><br/>

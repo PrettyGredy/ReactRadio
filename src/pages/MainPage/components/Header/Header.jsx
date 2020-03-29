@@ -1,21 +1,20 @@
 import React from "react";
 import "./Header.css"
-import logo from "./image/logo.png"
-import play_button from "./image/play_button.png"
+import images from "./image"
 
 const Header = () => {
     return (
         <div className="Header">
             <div className="nav-brand">
                 <div>
-                    <img src={logo} width={180} height={45}/>
+                    <img src={images.logo} width={180} height={45}/>
                 </div>
                 <div>
                     <a id="trackname">Grigoriy Leps - Samiy luchshiy deni
                     </a>
                 </div>
                 <div>
-                    <img src={play_button} alt="" width={45} height={48}/>
+                    <img src={images.play_button} alt="" width={45} height={48}/>
                 </div>
                 <div>
                     <input type="range" value="80"/>

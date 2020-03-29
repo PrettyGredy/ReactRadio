@@ -1,9 +1,7 @@
 import React from "react";
 import "/React/ProgektRadio/my-app/src/App.css"
 import "./Partners.css"
-import rusu from "./image/alya_rusu.jpg"
-import carman from "./image/carman.jpg"
-import saranchuk from "./image/saranchuk.jpg"
+import image from "./image"
 
 const Partners = () => {
     return (
@@ -13,7 +11,7 @@ const Partners = () => {
                 <a name="partners"></a>
             </div>
             <div className="indoor_block Partners_info_block">
-                <img src={saranchuk} height={287} width={350}/>
+                <img src={image.saranchuk} height={287} width={350}/>
                 <div className="under_the_image">
                     <h4>Иван Саранчук</h4>
                     <p>Иван Саранчук - директор радиостанции "Русское Радио Америка", основатель нескольких клиник в
@@ -21,7 +19,7 @@ const Partners = () => {
                 </div>
             </div>
             <div className="indoor_block Partners_info_block">
-                <img src={rusu} height={400} width={350}/>
+                <img src={image.alya} height={400} width={350}/>
                 <div className="under_the_image">
                     <h4>Аля Русу</h4>
                     <p>Аля Русу - кейс-менеджер в Клинике Pro Health Chiropractic Center. Консультант по вопросам
@@ -32,7 +30,7 @@ const Partners = () => {
                 </div>
             </div>
             <div className="indoor_block Partners_info_block">
-                <img src={carman} height={350} width={350}/>
+                <img src={image.carman} height={350} width={350}/>
                 <div className="under_the_image">
                     <h4>Сергей Карман</h4>
                     <p>Сергей Карман - основатель и генеральный директор американской корпорации Ezlogz
